@@ -1,0 +1,48 @@
+{
+  "id": "glba",
+  "name": "Gramm-Leach-Bliley Act",
+  "region": "USA",
+  "risk_category": "medium",
+  "summary": "The GLBA requires financial institutions to explain their information-sharing practices to their customers and to safeguard sensitive data. The Safeguards Rule requires financial institutions to develop, implement, and maintain a comprehensive information security program.",
+  "articles": [
+    {
+      "article": "314.3",
+      "title": "Standards for safeguarding customer information",
+      "summary": "Each financial institution must develop, implement, and maintain a comprehensive written information security program that contains administrative, technical, and physical safeguards appropriate to the size and complexity of the institution.",
+      "notes": "The security program must be designed to ensure the security and confidentiality of customer information."
+    },
+    {
+      "article": "314.4",
+      "title": "Elements of information security program",
+      "summary": "The information security program must include: designation of an employee to coordinate the program, risk assessment, safeguards to control identified risks, service provider oversight, and program adjustments based on changes to operations or circumstances.",
+      "notes": "The program must be regularly reviewed and updated."
+    },
+    {
+      "article": "313.3",
+      "title": "Initial privacy notice",
+      "summary": "Financial institutions must provide customers with a clear and conspicuous initial privacy notice that explains the institution's information collection and sharing practices.",
+      "notes": "Privacy notices must be provided at the time of establishing a customer relationship."
+    },
+    {
+      "article": "313.4",
+      "title": "Annual privacy notice",
+      "summary": "Financial institutions must provide customers with an annual privacy notice that describes the institution's information collection and sharing practices and customers' right to opt-out of certain information sharing.",
+      "notes": "Annual notices must be clear and delivered in a manner that ensures customers receive them."
+    }
+  ],
+  "developer_guidance": [
+    "Implement comprehensive information security programs covering administrative, technical, and physical safeguards",
+    "Conduct regular risk assessments to identify threats and vulnerabilities to customer information",
+    "Encrypt customer information both at rest and in transit using strong encryption",
+    "Implement access controls to ensure only authorized personnel can access customer information",
+    "Maintain audit logs of all access to customer information",
+    "Establish procedures for detecting, preventing, and responding to security incidents",
+    "Ensure service providers implement appropriate safeguards for customer information",
+    "Provide clear privacy notices explaining information collection and sharing practices",
+    "Implement mechanisms for customers to opt-out of certain information sharing",
+    "Regularly test and monitor security controls to ensure effectiveness",
+    "Train employees on information security policies and procedures",
+    "Establish incident response procedures for security breaches involving customer information"
+  ]
+}
+

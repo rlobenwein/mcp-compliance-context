@@ -1,0 +1,46 @@
+{
+  "id": "dora",
+  "name": "Digital Operational Resilience Act",
+  "region": "EU",
+  "risk_category": "high",
+  "summary": "DORA establishes uniform requirements for the security of network and information systems of companies and organizations operating in the financial sector. It aims to ensure that all financial entities can withstand, respond to, and recover from ICT-related disruptions and threats.",
+  "articles": [
+    {
+      "article": "8",
+      "title": "Management of ICT risk",
+      "summary": "Financial entities must have a sound, comprehensive, and well-documented ICT risk management framework that includes strategies, policies, procedures, and tools to address ICT risk.",
+      "notes": "ICT risk management must be integrated into the overall risk management framework."
+    },
+    {
+      "article": "9",
+      "title": "ICT-related incident management",
+      "summary": "Financial entities must establish, implement, and maintain an ICT-related incident management process to detect, manage, and notify ICT-related incidents.",
+      "notes": "Incident response procedures must be tested regularly and updated based on lessons learned."
+    },
+    {
+      "article": "10",
+      "title": "Digital operational resilience testing",
+      "summary": "Financial entities must regularly test their ICT systems, including vulnerability assessments, penetration testing, and scenario-based testing.",
+      "notes": "Testing should cover all critical systems and be conducted at least annually."
+    },
+    {
+      "article": "11",
+      "title": "Management of ICT third-party risk",
+      "summary": "Financial entities must manage ICT third-party risk, including due diligence, contract management, and monitoring of third-party service providers.",
+      "notes": "Third-party risk is a critical component of operational resilience."
+    }
+  ],
+  "developer_guidance": [
+    "Implement comprehensive logging and monitoring for all ICT systems and applications",
+    "Establish incident response procedures with clear escalation paths and communication protocols",
+    "Conduct regular penetration testing and vulnerability assessments of all systems",
+    "Implement automated backup and disaster recovery procedures with regular testing",
+    "Ensure third-party service providers meet security and resilience requirements",
+    "Maintain detailed documentation of system architecture, dependencies, and data flows",
+    "Implement network segmentation and access controls to limit blast radius of potential incidents",
+    "Establish business continuity plans that account for ICT disruptions",
+    "Monitor and assess emerging ICT risks and threats continuously",
+    "Ensure compliance with notification requirements for significant ICT-related incidents"
+  ]
+}
+

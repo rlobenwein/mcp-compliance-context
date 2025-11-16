@@ -1,0 +1,40 @@
+{
+  "id": "lgpd",
+  "name": "Lei Geral de Proteção de Dados",
+  "region": "Brazil",
+  "risk_category": "high",
+  "summary": "The LGPD (Brazil's General Data Protection Law) is Brazil's comprehensive data protection legislation, inspired by the GDPR. It establishes rules for the collection, processing, storage, and sharing of personal data in Brazil, granting rights to data subjects and imposing obligations on data controllers and processors.",
+  "articles": [
+    {
+      "article": "6",
+      "title": "Principles of personal data processing",
+      "summary": "Personal data processing must follow principles of purpose, adequacy, necessity, free access, data quality, transparency, security, prevention, non-discrimination, and accountability.",
+      "notes": "These principles guide all data processing activities and must be considered in system design."
+    },
+    {
+      "article": "18",
+      "title": "Rights of data subjects",
+      "summary": "Data subjects have the right to confirmation of processing, access to data, correction of incomplete or inaccurate data, anonymization or deletion, data portability, deletion of data processed with consent, information about data sharing, and revocation of consent.",
+      "notes": "Systems must provide mechanisms for users to exercise these rights easily."
+    },
+    {
+      "article": "46",
+      "title": "Security measures",
+      "summary": "Controllers and processors must adopt technical and administrative security measures to protect personal data from unauthorized access, accidental or unlawful destruction, loss, alteration, communication, or dissemination.",
+      "notes": "Security measures must be appropriate to the nature of the data and the risks involved."
+    }
+  ],
+  "developer_guidance": [
+    "Implement secure authentication and authorization mechanisms for accessing personal data",
+    "Use encryption for personal data both at rest and in transit",
+    "Implement audit logging for all personal data access and modifications",
+    "Provide user interfaces for data subjects to exercise their rights (access, correction, deletion, portability)",
+    "Establish data retention policies aligned with legal requirements and business needs",
+    "Implement consent management systems that allow users to grant and revoke consent",
+    "Conduct privacy impact assessments for new data processing activities",
+    "Ensure data minimization - only collect and process necessary personal data",
+    "Implement data anonymization techniques where appropriate",
+    "Establish procedures for handling data subject requests within legal timeframes"
+  ]
+}
+

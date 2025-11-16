@@ -1,0 +1,21 @@
+[
+  {
+    "id": "eu",
+    "name": "European Union",
+    "regulations": ["gdpr", "dora"],
+    "notes": "European Union regulations covering data protection and digital operational resilience."
+  },
+  {
+    "id": "usa",
+    "name": "United States of America",
+    "regulations": ["hipaa", "ccpa", "glba"],
+    "notes": "United States regulations covering healthcare privacy, consumer privacy, and financial data protection."
+  },
+  {
+    "id": "brazil",
+    "name": "Brazil",
+    "regulations": ["lgpd"],
+    "notes": "Brazil's data protection regulation covering personal data processing and privacy rights."
+  }
+]
+

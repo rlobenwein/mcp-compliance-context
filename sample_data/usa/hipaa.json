@@ -1,0 +1,48 @@
+{
+  "id": "hipaa",
+  "name": "Health Insurance Portability and Accountability Act",
+  "region": "USA",
+  "risk_category": "high",
+  "summary": "HIPAA establishes national standards to protect sensitive patient health information from being disclosed without the patient's consent or knowledge. The HIPAA Privacy Rule and Security Rule set requirements for covered entities and business associates to safeguard Protected Health Information (PHI).",
+  "articles": [
+    {
+      "article": "164.308",
+      "title": "Administrative safeguards",
+      "summary": "Covered entities must implement administrative actions, policies, and procedures to manage the selection, development, implementation, and maintenance of security measures to protect electronic PHI.",
+      "notes": "This includes security management processes, workforce security, information access management, and security awareness training."
+    },
+    {
+      "article": "164.312",
+      "title": "Technical safeguards",
+      "summary": "Covered entities must implement technical policies and procedures to allow only authorized persons to access electronic PHI. This includes access control, audit controls, integrity controls, and transmission security.",
+      "notes": "Technical safeguards must be implemented in all systems that handle PHI."
+    },
+    {
+      "article": "164.502",
+      "title": "Uses and disclosures of protected health information",
+      "summary": "A covered entity may not use or disclose PHI except as permitted or required by the Privacy Rule. Permitted uses include treatment, payment, and healthcare operations with patient authorization or as required by law.",
+      "notes": "Understand the minimum necessary standard - only use or disclose the minimum PHI necessary."
+    },
+    {
+      "article": "164.520",
+      "title": "Notice of privacy practices",
+      "summary": "Covered entities must provide individuals with a notice of privacy practices that describes how the entity may use and disclose PHI, and the individual's rights regarding their PHI.",
+      "notes": "Privacy notices must be clear, accessible, and provided at the first service delivery."
+    }
+  ],
+  "developer_guidance": [
+    "Encrypt all PHI at rest using AES-256 or equivalent encryption",
+    "Use TLS 1.2 or higher for all PHI in transit",
+    "Implement strong access controls with unique user identification and authentication",
+    "Maintain audit logs of all PHI access, including who, what, when, and why",
+    "Implement automatic logoff and session timeout mechanisms",
+    "Ensure PHI is only accessible to authorized personnel on a need-to-know basis",
+    "Implement data backup and disaster recovery procedures for PHI",
+    "Conduct regular risk assessments and security audits",
+    "Ensure business associates sign Business Associate Agreements (BAAs) before accessing PHI",
+    "Implement mechanisms to detect and respond to security incidents involving PHI",
+    "Provide workforce training on HIPAA requirements and security awareness",
+    "Implement data minimization - only collect and store PHI that is necessary"
+  ]
+}
+

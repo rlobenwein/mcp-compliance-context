@@ -1,0 +1,48 @@
+{
+  "id": "ccpa",
+  "name": "California Consumer Privacy Act",
+  "region": "USA",
+  "risk_category": "medium",
+  "summary": "The CCPA gives California residents the right to know what personal information is collected, used, shared, or sold, both offline and online. It provides rights to delete personal information, opt-out of the sale of personal information, and non-discrimination for exercising these rights.",
+  "articles": [
+    {
+      "article": "1798.100",
+      "title": "Right to know about personal information collected",
+      "summary": "Businesses must inform consumers about the categories of personal information collected, the purposes for which it is used, and the categories of third parties with whom it is shared.",
+      "notes": "Privacy policies must be clear and comprehensive, updated at least annually."
+    },
+    {
+      "article": "1798.105",
+      "title": "Right to delete personal information",
+      "summary": "Consumers have the right to request that businesses delete personal information collected from them, subject to certain exceptions such as completing transactions or complying with legal obligations.",
+      "notes": "Businesses must have processes to handle deletion requests within 45 days."
+    },
+    {
+      "article": "1798.120",
+      "title": "Right to opt-out of sale of personal information",
+      "summary": "Consumers have the right to opt-out of the sale of their personal information. Businesses must provide a clear and conspicuous link on their homepage titled 'Do Not Sell My Personal Information'.",
+      "notes": "Opt-out mechanisms must be easy to use and respect consumer choices."
+    },
+    {
+      "article": "1798.135",
+      "title": "Notice of right to opt-out",
+      "summary": "Businesses that sell personal information must provide notice to consumers about their right to opt-out and must not sell personal information after receiving an opt-out request.",
+      "notes": "Opt-out requests must be honored within 15 business days."
+    }
+  ],
+  "developer_guidance": [
+    "Implement user interfaces for consumers to submit access, deletion, and opt-out requests",
+    "Maintain detailed records of what personal information is collected, from whom, and how it is used",
+    "Implement data mapping to track personal information flows across systems and third parties",
+    "Provide clear privacy notices that explain data collection and usage practices",
+    "Implement opt-out mechanisms that are easy to find and use",
+    "Establish processes to verify consumer identity before processing requests",
+    "Implement systems to honor opt-out requests and prevent sale of opted-out consumers' data",
+    "Ensure deletion processes remove personal information from all systems, backups, and third parties",
+    "Implement non-discrimination policies - do not penalize consumers for exercising their rights",
+    "Maintain audit trails of all consumer requests and responses",
+    "Update privacy policies at least annually and notify consumers of material changes",
+    "Train customer service staff on handling CCPA requests appropriately"
+  ]
+}
+
